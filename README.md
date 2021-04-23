@@ -1,4 +1,4 @@
-## @superset-ui/legacy-plugin-chart-treemap
+## @arthanasti/legacy-plugin-chart-treemap
 
 [![Version](https://img.shields.io/npm/v/@superset-ui/legacy-plugin-chart-treemap.svg?style=flat-square)](https://www.npmjs.com/package/@superset-ui/legacy-plugin-chart-treemap)
 [![David (path)](https://img.shields.io/david/apache-superset/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-legacy-plugin-chart-treemap&style=flat-square)](https://david-dm.org/apache-superset/superset-ui-plugins?path=packages/superset-ui-legacy-plugin-chart-treemap)
@@ -11,7 +11,7 @@ Configure `key`, which can be any `string`, and register the plugin. This `key` 
 lookup this chart throughout the app.
 
 ```js
-import TreemapChartPlugin from '@superset-ui/legacy-plugin-chart-treemap';
+import TreemapChartPlugin from '@arthanasti/legacy-plugin-chart-treemap';
 
 new TreemapChartPlugin().configure({ key: 'treemap' }).register();
 ```
